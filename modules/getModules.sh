@@ -13,7 +13,7 @@ git clone https://github.com/werthdavid/MMM-BurnIn
 # Get the MMM-network-signal module
 rm -rf MMM-network-signal/*
 rm -rf MMM-network-signal/.[^.]*
-git clone https://github.com/PoOwAa/MMM-network-signal
+git clone https://github.com/zbattenfield/MMM-network-signal
 cd MMM-network-signal
 npm install
 cd ..

@@ -4,7 +4,13 @@
 	"description": "The open source modular smart mirror platform.",
 	"main": "js/electron.js",
 	"scripts": {
+		"startup": "npm run getmodules && npm install && npm start",
+		"startup:dev": "npm run getmodules && npm install && npm run start:dev",
+		"startupalt": "npm run getmodules && npm install && npm run startalt",
+		"startupalt:dev": "npm run getmodules && npm install && npm run startalt:dev",
 		"getmodules": "cd modules && sh getModules.sh && cd ..",
+		"startalt": "./node_modules/.bin/electron js/electron.js",
+		"startalt:dev": "./node_modules/.bin/electron js/electron.js dev",
 		"start": "DISPLAY=\"${DISPLAY:=:0}\" ./node_modules/.bin/electron js/electron.js",
 		"start:dev": "DISPLAY=\"${DISPLAY:=:0}\" ./node_modules/.bin/electron js/electron.js dev",
 		"server": "node ./serveronly",
