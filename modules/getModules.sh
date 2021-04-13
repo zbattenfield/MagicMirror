@@ -17,3 +17,13 @@ git clone https://github.com/zbattenfield/MMM-network-signal
 cd MMM-network-signal
 npm install
 cd ..
+
+# Get the MMM-Carousel module
+rm -rf MMM-Carousel/*
+rm -rf MMM-Carousel/.[^.]*
+git clone https://github.com/barnabycolby/MMM-Carousel
+
+# Get the DailyXKCD module
+rm -rf DailyXKCD/*
+rm -rf DailyXKCD/.[^.]*
+git clone https://github.com/Blastitt/DailyXKCD

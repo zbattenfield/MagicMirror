@@ -170,6 +170,27 @@ var config = {
 				updateInterval: 15,
 				invertDuration: 5
 			}
+		}, {
+			module: 'DailyXKCD',
+			position: 'top_left',
+			config: {
+				invertColors: true,
+				showTitle: true,
+				showAltText: true,
+				randomComic: true
+			}
+		}, {
+			module: "MMM-Carousel",
+			config: {
+				mode: 'positional',
+				top_left: {
+					enabled: true,
+					ignoreModules: [
+						'MMM-Block',
+						'clock'
+					]
+				}
+			}
 		}
 	]
 };
