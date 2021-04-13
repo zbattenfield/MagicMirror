@@ -70,7 +70,7 @@ var config = {
 				displayType: "analog",
 				secondsColor: "#FF0000",
 				analogFace: "face-001",
-				analogSize: "400px",
+				analogSize: "325px",
 				showDate: false,
 				analogShowDate: false
 			}
