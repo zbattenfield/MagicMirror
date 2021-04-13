@@ -195,15 +195,6 @@ var config = {
 				flavorText: true
 			}
 		}, {
-			module: 'MMM-Carousel',
-			config: {
-				mode: 'positional',
-				bottom_bar: {
-					enabled: true,
-					overrideTransitionInterval: 15000
-				}
-			}
-		}, {
 			module: 'MMM-Dad-Jokes',
 			position: 'bottom_bar',
 			config: {
@@ -238,6 +229,10 @@ var config = {
 						'clock'
 					],
 					overrideTransitionInterval: 30000
+				},
+				bottom_bar: {
+					enabled: true,
+					overrideTransitionInterval: 15000
 				}
 			}
 		}
