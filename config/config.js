@@ -204,7 +204,7 @@ var config = {
 						'MMM-Block',
 						'clock'
 					],
-					transitionInterval: 15000
+					overrideTransitionInterval: 15000
 				}
 			}
 		}
