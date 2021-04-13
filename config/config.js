@@ -111,9 +111,6 @@ var config = {
 				}]
 			}
 		}, {
-			module: "compliments",
-			position: "lower_third"
-		}, {
 			module: "weather",
 			position: "top_right",
 			header: "5-Day Weather Forecast",
@@ -196,27 +193,10 @@ var config = {
 			}
 		}, {
 			module: 'MMM-Dad-Jokes',
-			position: 'bottom_bar',
+			// position: 'bottom_bar',
+			position: 'lower_third',
 			config: {
 				updateInterval: 60000
-			}
-		}, {
-			module: "MMM-Block",
-			position: "bottom_bar",
-			config: {
-				height: 30
-			}
-		}, {
-			module: "MMM-Block",
-			position: "bottom_bar",
-			config: {
-				height: 30
-			}
-		}, {
-			module: "MMM-Block",
-			position: "bottom_bar",
-			config: {
-				height: 30
 			}
 		}, {
 			module: "MMM-Carousel",
@@ -229,10 +209,6 @@ var config = {
 						'clock'
 					],
 					overrideTransitionInterval: 30000
-				},
-				bottom_bar: {
-					enabled: true,
-					overrideTransitionInterval: 15000
 				}
 			}
 		}
