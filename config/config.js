@@ -115,7 +115,7 @@ var config = {
 			position: "lower_third"
 		}, {
 			module: "weather",
-			position: "bottom_right",
+			position: "top_right",
 			header: "5-Day Weather Forecast",
 			config: {
 				weatherProvider: "openweathermap",
@@ -131,7 +131,7 @@ var config = {
 			}
 		}, {
 			module: "weather",
-			position: "bottom_right",
+			position: "top_right",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
