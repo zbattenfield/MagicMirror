@@ -193,8 +193,7 @@ var config = {
 			}
 		}, {
 			module: 'MMM-Dad-Jokes',
-			// position: 'bottom_bar',
-			position: 'lower_third',
+			position: 'bottom_bar',
 			config: {
 				updateInterval: 60000
 			}
