@@ -177,19 +177,19 @@ var config = {
 				invertColors: true,
 				showTitle: true,
 				randomComic: true,
-				limitComicHeight: 550
+				limitComicHeight: 550,
+				updateInterval: 45000
 			}
 		}, {
 			module: 'MMM-DailyPokemon',
 			position: 'top_left',
 			config: {
-				updateInterval: 10000,
+				updateInterval: 45000,
 				showType: true,
 				grayscale: false,
 				minPoke: 1,
 				maxPoke: 802,
 				stats: true,
-				language: 'ja',
 				genera: true,
 				gbaMode: true,
 				flavorText: true
@@ -203,7 +203,8 @@ var config = {
 					ignoreModules: [
 						'MMM-Block',
 						'clock'
-					]
+					],
+					transitionInterval: 15000
 				}
 			}
 		}
