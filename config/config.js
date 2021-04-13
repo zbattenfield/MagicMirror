@@ -195,6 +195,12 @@ var config = {
 				flavorText: true
 			}
 		}, {
+			module: 'MMM-Dad-Jokes',
+			position: 'top_left',
+			config: {
+				updateInterval: 600000
+			}
+		}, {
 			module: "MMM-Carousel",
 			config: {
 				mode: 'positional',

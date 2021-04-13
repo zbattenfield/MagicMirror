@@ -35,3 +35,8 @@ git clone https://github.com/NolanKingdon/MMM-DailyPokemon
 cd MMM-DailyPokemon
 npm install
 cd ..
+
+# Get the MMM-Dad-Jokes module
+rm -rf MMM-Dad-Jokes/*
+rm -rf MMM-Dad-Jokes/.[^.]*
+git clone https://github.com/echang15/MMM-Dad-Jokes
