@@ -178,13 +178,13 @@ var config = {
 				showTitle: true,
 				randomComic: true,
 				limitComicHeight: 550,
-				updateInterval: 45000
+				updateInterval: 49500
 			}
 		}, {
 			module: 'MMM-DailyPokemon',
 			position: 'top_left',
 			config: {
-				updateInterval: 45000,
+				updateInterval: 49500,
 				showType: true,
 				grayscale: false,
 				minPoke: 1,
