@@ -61,7 +61,7 @@ var config = {
 				showMessage: false, // Show status message based on connection strength
 				animationSpeed: 0, // Icon change animation time in ms,
 				flexDirection: 'row-reverse', // When the icon is alone, display it on the right
-				scale: 0.2 // how big or small should the ping icon be?
+				scale: 0.3 // how big or small should the ping icon be?
 			}
 		}, {
 			module: "clock",
