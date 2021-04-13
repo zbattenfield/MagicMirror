@@ -195,10 +195,37 @@ var config = {
 				flavorText: true
 			}
 		}, {
-			module: 'MMM-Dad-Jokes',
-			position: 'top_left',
+			module: 'MMM-Carousel',
 			config: {
-				updateInterval: 600000
+				mode: 'positional',
+				bottom_bar: {
+					enabled: true,
+					overrideTransitionInterval: 15000
+				}
+			}
+		}, {
+			module: 'MMM-Dad-Jokes',
+			position: 'bottom_bar',
+			config: {
+				updateInterval: 60000
+			}
+		}, {
+			module: "MMM-Block",
+			position: "bottom_bar",
+			config: {
+				height: 30
+			}
+		}, {
+			module: "MMM-Block",
+			position: "bottom_bar",
+			config: {
+				height: 30
+			}
+		}, {
+			module: "MMM-Block",
+			position: "bottom_bar",
+			config: {
+				height: 30
 			}
 		}, {
 			module: "MMM-Carousel",
