@@ -176,8 +176,23 @@ var config = {
 			config: {
 				invertColors: true,
 				showTitle: true,
-				showAltText: true,
-				randomComic: true
+				randomComic: true,
+				limitComicHeight: 550
+			}
+		}, {
+			module: 'MMM-DailyPokemon',
+			position: 'top_left',
+			config: {
+				updateInterval: 10000,
+				showType: true,
+				grayscale: false,
+				minPoke: 1,
+				maxPoke: 802,
+				stats: true,
+				language: 'ja',
+				genera: true,
+				gbaMode: true,
+				flavorText: true
 			}
 		}, {
 			module: "MMM-Carousel",

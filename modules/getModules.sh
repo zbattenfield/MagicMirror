@@ -27,3 +27,11 @@ git clone https://github.com/barnabycolby/MMM-Carousel
 rm -rf DailyXKCD/*
 rm -rf DailyXKCD/.[^.]*
 git clone https://github.com/Blastitt/DailyXKCD
+
+# Get the MMM-DailyPokemon module
+rm -rf MMM-DailyPokemon/*
+rm -rf MMM-DailyPokemon/.[^.]*
+git clone https://github.com/NolanKingdon/MMM-DailyPokemon
+cd MMM-DailyPokemon
+npm install
+cd ..
