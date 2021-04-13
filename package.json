@@ -4,6 +4,7 @@
 	"description": "The open source modular smart mirror platform.",
 	"main": "js/electron.js",
 	"scripts": {
+		"updatemm": "git pull && npm run getmodules && npm install",
 		"startup": "git pull && npm run getmodules && npm install && npm start",
 		"startup:dev": "git pull && npm run getmodules && npm install && npm run start:dev",
 		"startupalt": "git pull && npm run getmodules && npm install && npm run startalt",

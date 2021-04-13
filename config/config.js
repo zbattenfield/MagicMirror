@@ -70,7 +70,7 @@ var config = {
 				displayType: "analog",
 				secondsColor: "#FF0000",
 				analogFace: "face-001",
-				analogSize: "400px",
+				analogSize: "325px",
 				showDate: false,
 				analogShowDate: false
 			}
@@ -111,11 +111,8 @@ var config = {
 				}]
 			}
 		}, {
-			module: "compliments",
-			position: "lower_third"
-		}, {
 			module: "weather",
-			position: "bottom_right",
+			position: "top_right",
 			header: "5-Day Weather Forecast",
 			config: {
 				weatherProvider: "openweathermap",
@@ -131,7 +128,7 @@ var config = {
 			}
 		}, {
 			module: "weather",
-			position: "bottom_right",
+			position: "top_right",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
@@ -169,6 +166,49 @@ var config = {
 			config: {
 				updateInterval: 15,
 				invertDuration: 5
+			}
+		}, {
+			module: 'DailyXKCD',
+			position: 'top_left',
+			config: {
+				invertColors: true,
+				showTitle: true,
+				randomComic: true,
+				limitComicHeight: 550,
+				updateInterval: 600000
+			}
+		}, {
+			module: 'MMM-DailyPokemon',
+			position: 'top_left',
+			config: {
+				updateInterval: 600000,
+				showType: true,
+				grayscale: false,
+				minPoke: 1,
+				maxPoke: 802,
+				stats: true,
+				genera: true,
+				gbaMode: true,
+				flavorText: true
+			}
+		}, {
+			module: 'MMM-Dad-Jokes',
+			position: 'bottom_bar',
+			config: {
+				updateInterval: 60000
+			}
+		}, {
+			module: "MMM-Carousel",
+			config: {
+				mode: 'positional',
+				top_left: {
+					enabled: true,
+					ignoreModules: [
+						'MMM-Block',
+						'clock'
+					],
+					overrideTransitionInterval: 30000
+				}
 			}
 		}
 	]
